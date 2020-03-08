@@ -1,0 +1,36 @@
+User Manual for Aharon Bar Hillel's team leaf counter
+
+This package contains two option for counting:
+    - Counting using a regressor based algorithm
+    - Counting using a detection with regression algorithm
+
+For more information read the published paper at:
+'https://www.plant-phenotyping.org/lw_resource/datapool/systemfiles/elements/files/63b7a231-949c-11e8-8a88-dead53a91d31/current/document/0031.pdf'
+
+This manual starts by the requirements for training.
+Than, we explain how to train each of the counters.
+Finally, we explain how to use the prediction script.
+
+0.Requirements:
+- Python 3.6.5, GPU (if available, otherwise training will be slow)
+- See the requirements.txt file for packages versions
+- The Banana leaves dataset (containing annotations of both the number of leaves as well as leaves location).
+    To use other datasets, see the Banana leaves dataset to understand the structure.
+
+1. Detection with regression algorithm:
+1.1 To train this pipe open LeafCounitng\bin\train_det.py
+1.2 Scroll down and find '# Start Editing'
+1.3 Change the relevant parameters.
+1.4 Choose an experiment number (default is 1)
+
+2. Regression based algorithm:
+2.1 To train this pipe open LeafCounitng\bin\train_reg.py
+2.2 Scroll down and find '# Start Editing'
+2.3 Change the relevant parameters.
+2.4 Choose an experiment number (default is 1)
+
+3. Predicting leaf number with a trained model
+3.1 To predict the number of leaves open LeafCounting\bin\predict_number_of_leaves.py
+3.2 Scroll down and find '# Start Editing'
+3.3 Change the relevant parameters and specifically change the path to the trained model
+

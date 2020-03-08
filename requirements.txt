@@ -1,0 +1,10 @@
+tensorflow = 1.14.0
+keras = 2.1.4
+numpy
+Pillow
+matplotlib
+seaborn
+opencv-python
+argparse
+functools
+pandas
