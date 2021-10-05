@@ -4,7 +4,7 @@ This package contains two option for counting:
     - Counting using a detection with regression algorithm
 
 For more information read the published paper at:
-'https://www.plant-phenotyping.org/lw_resource/datapool/systemfiles/elements/files/63b7a231-949c-11e8-8a88-dead53a91d31/current/document/0031.pdf'
+'https://www.frontiersin.org/articles/10.3389/fpls.2021.575751/full'
 
 This manual starts by the requirements for training.
 Than, we explain how to train each of the counters.
